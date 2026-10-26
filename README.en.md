@@ -184,10 +184,10 @@ def tree_sum(node):
 
 Each node provides `value`, `left`, and `right` attributes, and `None` represents an empty subtree. The program unfolds along the data structure and combines the current node's value with the results of its left and right subtrees. A tree with root value `1` and two child values `2` and `3` has a sum of `6`.
 
-For a finite tree $T$, we still have:
+For a finite tree $T$, let $S(T)$ denote the value returned by `tree_sum(T)`, let $w(v)$ be node $v$'s `value`, and let $V(T)$ be the set of nodes in the tree. Then:
 
 $$
-\operatorname{tree\_sum}(T)=\sum_{v\in V(T)}\operatorname{value}(v).
+S(T)=\sum_{v\in V(T)}w(v).
 $$
 
 For an empty tree, both sides are zero. If the equality holds for the left and right subtrees, adding the root value establishes it for the whole tree. This is a proof by structural induction.
