@@ -4,6 +4,22 @@
 
 递归与级数关系的研究总结 · 更新于 2026 年 10 月 26 日
 
+## 2026-11-09 材料更新
+
+本次新增扩展稿、单链仿射与加权分支研究、五个验证脚本及独立检查报告。**扩展稿仍待修订，中英文尚未同步；本次上传不代表已完成错误修复或原创性核查。** 下方保留 2026-10-26 的研究总结。
+
+| 材料 | 入口 |
+|---|---|
+| 本轮检查与已知问题 | [检查报告](reviews/check-2026-11-09.md) |
+| 扩展稿（待修订） | [中文](essay/essay_final.md) · [English](essay/essay_final.en.md) |
+| 单链仿射递归 | [残项与截断误差](essay/affine_remainder_research.md) |
+| 加权分支递归 | [前沿误差与停止界](essay/branch_remainder_research.md) |
+| 文件与运行入口 | [材料目录](essay/README.md) · [复现说明](essay/reproduction.md) |
+
+五个原脚本在本轮检查中均运行通过；有限实验不代替一般证明。稿件引用的 `lit-check.md` 未包含在交付材料中，文献定位与原创性仍有待补齐。
+
+---
+
 ## 用三句话说明这个研究
 
 我最初把递归理解成逐项展开的级数：每层显露一个当前项，下一层调用负责剩余计算。
@@ -227,3 +243,4 @@ $$
 3. [OpenStax Calculus Volume 2 — 6.3 Taylor and Maclaurin Series](https://openstax.org/books/calculus-volume-2/pages/6-3-taylor-and-maclaurin-series)：泰勒多项式、余项及误差估计。
 
 本文由原始研究讨论整理而成，并借助 AI 辅助校对与资料检索；不是同行评审论文。公开发布与列出参考资料，不能替代独立评审或第三方认可。
+

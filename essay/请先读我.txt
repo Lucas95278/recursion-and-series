@@ -1,0 +1,3 @@
+内容说明：essay_final.md 为中文稿，essay_final.en.md 为英文对应稿；这两稿仍有 red-team-review.md 中尚未全部修复的问题，不能视为可发布定稿。
+affine_remainder_research.md 和 branch_remainder_research.md 是后续单链与分支递归研究，已核查推导并运行配套验证代码，尚未合入essay，未核查原创性。
+验证脚本只依赖Python标准库。运行方式见reproduction.md及各研究文件。

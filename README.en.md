@@ -4,6 +4,22 @@
 
 A research summary on the relationship between recursion and series · Updated October 26, 2026
 
+## Materials update — November 9, 2026
+
+This update adds extended essays, research on affine chains and weighted branching, five verification scripts, and a review report. **The extended essays still require revision, the Chinese and English editions are not synchronized, and this upload does not certify that the reported errors are fixed or that the results are original.** The October 26 research summary is retained below.
+
+| Material | Link |
+|---|---|
+| Review and known issues | [Review report (Chinese)](reviews/check-2026-11-09.md) |
+| Extended essays requiring revision | [Chinese](essay/essay_final.md) · [English](essay/essay_final.en.md) |
+| Affine-chain research | [Residual terms and truncation error (Chinese)](essay/affine_remainder_research.md) |
+| Weighted-branching research | [Frontier error and stopping bounds (Chinese)](essay/branch_remainder_research.md) |
+| Files and execution | [Materials index](essay/README.md) · [Reproduction guide](essay/reproduction.md) |
+
+All five original scripts passed the checks performed for this update; finite examples do not replace proofs. The essays refer to a `lit-check.md` file that was not supplied. Literature positioning and originality remain unverified.
+
+---
+
 ## The research in three sentences
 
 I initially understood recursion as a series being expanded term by term: each level exposes a current term, while the next call handles the remaining computation.
@@ -227,3 +243,4 @@ These sources were used to check established concepts and were consulted on Octo
 3. [OpenStax Calculus Volume 2 — 6.3 Taylor and Maclaurin Series](https://openstax.org/books/calculus-volume-2/pages/6-3-taylor-and-maclaurin-series): Taylor polynomials, remainders, and error estimates.
 
 This summary was developed from the original research discussion with AI assistance for checking and source retrieval; it is not a peer-reviewed paper. Publishing the work with references does not replace independent review or third-party recognition.
+
