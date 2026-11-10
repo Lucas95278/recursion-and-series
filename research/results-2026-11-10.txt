@@ -1,0 +1,99 @@
+{
+  "nilpotent_greedy_counterexample": [
+    {
+      "step": 0,
+      "error": "1"
+    },
+    {
+      "step": 1,
+      "error": "2"
+    },
+    {
+      "step": 2,
+      "error": "4"
+    },
+    {
+      "step": 3,
+      "error": "8"
+    },
+    {
+      "step": 4,
+      "error": "16"
+    },
+    {
+      "step": 5,
+      "error": "32"
+    },
+    {
+      "step": 6,
+      "error": "64"
+    },
+    {
+      "step": 7,
+      "error": "128"
+    },
+    {
+      "step": 8,
+      "error": "256"
+    },
+    {
+      "step": 9,
+      "error": "512"
+    },
+    {
+      "step": 10,
+      "error": "1024"
+    },
+    {
+      "step": 11,
+      "error": "2048"
+    },
+    {
+      "step": 12,
+      "error": "4096"
+    }
+  ],
+  "parallel_edges": {
+    "C": "0",
+    "B": "2"
+  },
+  "weighted_certificate": {
+    "h": [
+      "4",
+      "1"
+    ],
+    "q": "1/2"
+  },
+  "source_specific_modes": {
+    "unstable_mode": "2",
+    "source_mode": "1/2"
+  },
+  "root_visible_certificate": {
+    "checked_annihilation_moments": 3,
+    "exact_terms_and_perturbed_terms": 13,
+    "root_sum": "2",
+    "global_unstable_eigenvalue": "2"
+  },
+  "scalar_sum_formula_checks": 2,
+  "variable_depths": {
+    "lengths": [
+      1,
+      2
+    ],
+    "ratios": [
+      "3/4",
+      "0"
+    ]
+  },
+  "cost_certificate_checks": {
+    "trajectories": 1764,
+    "completed_updates": 13428
+  },
+  "adjoint_checks": 81,
+  "fixed_frontier_information_radius": "8",
+  "query_ratio_counterexample": {
+    "ratio_greedy_benefit": 16,
+    "optimal_benefit": 22
+  }
+}
+All exact adaptive-expansion research checks passed.

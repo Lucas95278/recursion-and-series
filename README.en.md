@@ -4,6 +4,17 @@
 
 A research summary on the relationship between recursion and series · Updated October 26, 2026
 
+## Research progress — November 10, 2026
+
+The new [research directory](research/README.md) develops variable-depth certified expansion, a progress bound per defined update cost, and a second line on scalar certificates for modes visible to a specified root and source.
+
+- [Derivations and counterexamples (Chinese)](research/2026-11-10-adaptive-expansion.md): depth-two expansion is exact for an example where raw largest-coefficient local greed diverges.
+- [Root-visible modes (Chinese)](research/2026-11-10-root-visible-modes.md): a finite scalar certificate can establish root-series convergence despite global instability; a perturbation example exposes the fragility of exact cancellation.
+- [Prior work (Chinese)](research/2026-11-10-literature-map.md): single-component approximation and local residual push already have direct precedents. No originality is claimed.
+- [Operation counts (Chinese)](research/2026-11-10-cost-check.md): including one-time preprocessing, none of four small examples shows fewer multiply-adds for macro expansion. Broader certificates do not establish faster computation.
+
+These notes remain separate from the older bilingual essays, whose full revision is still pending.
+
 ## Materials update — November 9, 2026
 
 This update adds extended essays, research on affine chains and weighted branching, five verification scripts, and a review report. **The extended essays still require revision, the Chinese and English editions are not synchronized, and this upload does not certify that the reported errors are fixed or that the results are original.** The October 26 research summary is retained below.

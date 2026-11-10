@@ -1,0 +1,90 @@
+[
+  {
+    "example": "weighted_positive_cycle",
+    "root_tolerance": "1/1000",
+    "synchronous_multiply_adds": 26,
+    "synchronous_layers": 13,
+    "macro": {
+      "lengths": [
+        1,
+        1
+      ],
+      "precompute_multiply_adds": 4,
+      "online_multiply_adds": 26,
+      "total_multiply_adds": 30,
+      "certificate_entries_examined": 10,
+      "selection_candidates_examined": 26,
+      "completed_macro_updates": 13
+    },
+    "synchronous_actual_error": "3/4096",
+    "macro_actual_error": "3/4096"
+  },
+  {
+    "example": "signed_nilpotent",
+    "root_tolerance": "1/1000",
+    "synchronous_multiply_adds": 9,
+    "synchronous_layers": 2,
+    "macro": {
+      "lengths": [
+        2,
+        2
+      ],
+      "precompute_multiply_adds": 18,
+      "online_multiply_adds": 1,
+      "total_multiply_adds": 19,
+      "certificate_entries_examined": 14,
+      "selection_candidates_examined": 2,
+      "completed_macro_updates": 1
+    },
+    "synchronous_actual_error": "0",
+    "macro_actual_error": "0"
+  },
+  {
+    "example": "shared_cancellation_diamond",
+    "root_tolerance": "1/1000",
+    "synchronous_multiply_adds": 7,
+    "synchronous_layers": 2,
+    "macro": {
+      "lengths": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "precompute_multiply_adds": 14,
+      "online_multiply_adds": 1,
+      "total_multiply_adds": 15,
+      "certificate_entries_examined": 48,
+      "selection_candidates_examined": 4,
+      "completed_macro_updates": 1
+    },
+    "synchronous_actual_error": "0",
+    "macro_actual_error": "0"
+  },
+  {
+    "example": "eight_node_chain",
+    "root_tolerance": "1/1000",
+    "synchronous_multiply_adds": 15,
+    "synchronous_layers": 8,
+    "macro": {
+      "lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "precompute_multiply_adds": 15,
+      "online_multiply_adds": 15,
+      "total_multiply_adds": 30,
+      "certificate_entries_examined": 136,
+      "selection_candidates_examined": 64,
+      "completed_macro_updates": 8
+    },
+    "synchronous_actual_error": "0",
+    "macro_actual_error": "0"
+  }
+]
